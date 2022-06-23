@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "spry-cortex-353514-tfstate"
+    bucket = "terracloudbuild"
     prefix = "env/prod"
   }
 }
